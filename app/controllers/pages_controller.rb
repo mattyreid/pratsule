@@ -1,4 +1,4 @@
-# The pages controller contains all of the code for any page inside /pages
+# The pages controller contains all of the code for any page index/pages
 class PagesController < ApplicationController
   
   # back-end code for pages/index

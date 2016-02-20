@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
   
-  # Define root URL
-  root pages#index
+  # Define Root URL
+  root 'pages#index'
   
-  # Define routes for pages
+  # Define Routes for Pages
   get '/home'=> 'pages#home' # overr[de default routes. 
   get '/profile'=> 'pages#profile'
   get '/explore'=> 'pages#explore'
